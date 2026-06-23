@@ -101,7 +101,7 @@
                 // Draw Top Pipe
                 ctx.fillRect(pipe.x, 5, PIPE_WIDTH, pipe.topHeight);
                 // Draw Bottom Pipe
-                ctx.fillRect(pipe.x, pipe.bottomY, PIPE_WIDTH, canvas.height - pipe.bottomY);
+                ctx.fillRect(pipe.x, pipe.bottomY, PIPE_WIDTH, canvas.height - GROUND_HEIGHT - pipe.bottomY);
             });
         }
 
